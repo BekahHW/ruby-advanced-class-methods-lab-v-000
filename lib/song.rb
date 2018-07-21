@@ -47,7 +47,7 @@ class Song
     array = filename.split(" - ")
     artist = array[0]
     song = self.new
-    song.name = array[1].split(".mp3")
+    song.name = array[1].split(".mp3")[0]
     song.artist_name = artist
     song
   end
