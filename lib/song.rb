@@ -44,7 +44,7 @@ class Song
   
   def self.new_from_filename(filename)
     binding.pry
-    filname.split()
+    filname.split
   end
   
   def self.create_from_filename
